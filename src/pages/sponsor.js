@@ -197,7 +197,7 @@ const Sponsor = () => {
             {(stage === "upload" || stage === "form") && (
               <>
                 <p>
-                  he first step is creating a verification video confirming which school district you want protected. NOTE- BullyBloxx does not share this video with anyone, this is just for our purposes. Please upload a "selfie" video of yourself clearly showing your face with no hats, sun glasses
+                  The first step is creating a verification video confirming which school district you want protected. NOTE- BullyBloxx does not share this video with anyone, this is just for our purposes. Please upload a "selfie" video of yourself clearly showing your face with no hats, sun glasses
                   or anything else that may obstruct your face. Please make the following statement in your video.
                   <br />
                   “Please activate BullyBloxx for the ______ school district zip code _______”.
