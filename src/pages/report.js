@@ -252,7 +252,7 @@ const Report = () => {
                               be identified; however, I will act as an intermediary so you can immediately access any additional information you need."
                       onChange={handleEv}
                     />{" "}
-                    XI am a trustee reporting this information for another student / individual who requests to not be identified; however, I will act as an intermediary so you can immediately access any additional information you need.
+                    I am a trustee reporting this information for another student / individual who requests to not be identified; however, I will act as an intermediary so you can immediately access any additional information you need.
                   </label>
                   <label className="py-1">
                     <Input
