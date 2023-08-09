@@ -248,10 +248,8 @@ const Report = () => {
                       type="radio"
                       name="trustee"
                       className="me-2"
-                      value="I am
-                    a trustee reporting this information for another student / individual who requests to not
-                    be identified; however, I will act as an intermediary so you can immediately
-                    access any additional information you need."
+                      value="I am a trustee reporting this information for another student / individual who requests to not
+                              be identified; however, I will act as an intermediary so you can immediately access any additional information you need."
                       onChange={handleEv}
                     />{" "}
                     I am a trustee reporting this information for another student / individual who requests to not be identified; however, I will act as an intermediary so you can immediately access any additional information you need.
