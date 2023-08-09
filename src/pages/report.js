@@ -215,7 +215,7 @@ const Report = () => {
                 <>
                   {reportType === "bullying" && (
                     <p>
-                      Dear Principal, <br />
+                      Dear PrincipalX, <br />
                       I have information involving bullying in your school. I am reporting this information through The Bully Periscope system. If you are not familiar with The Bully Periscpe system please go to www.thebullyperiscope.com for details. Once you are on the site if you will click on the MORE tab at the
                       top of the Home page and the School Administrator tab will drop down providing you with complete information for addressing this report. <br />
                       Also, on the MORE tab is a drop down that says SEARCH VIDEOS where you can view my identification video under my username <span className="fw-bold"> {reporter.username || ""} </span> where you can see my face and hear my voice. <br />
@@ -248,11 +248,11 @@ const Report = () => {
                       type="radio"
                       name="trustee"
                       className="me-2"
-                      value="I am a trustee reporting this information for another student / individual who requests to not
+                      value="BI am a trustee reporting this information for another student / individual who requests to not
                               be identified; however, I will act as an intermediary so you can immediately access any additional information you need."
                       onChange={handleEv}
                     />{" "}
-                    I am a trustee reporting this information for another student / individual who requests to not be identified; however, I will act as an intermediary so you can immediately access any additional information you need.
+                    BI am a trustee reporting this information for another student / individual who requests to not be identified; however, I will act as an intermediary so you can immediately access any additional information you need.
                   </label>
                   <label className="py-1">
                     <Input
@@ -260,10 +260,10 @@ const Report = () => {
                       name="trustee"
                       className="me-2"
                       value="not a trustee for someone else, I am submitting this information on my own
-                    behalf."
+                    behalfZ."
                       onChange={handleEv}
                     />{" "}
-                    I am not a trustee for someone else, I am submitting this information on my own behalf.
+                    I am not a trustee for someone else, I am submitting this information on my own behalfZ.
                   </label>
 
                   <Icontroller
