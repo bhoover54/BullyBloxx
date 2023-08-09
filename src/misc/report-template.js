@@ -2,9 +2,9 @@ export const bullyTemplate2 = (reqBody, periscope = false) => `
 ${
   !periscope
     ? `
-I have information involving bullying in your school. I am reporting this information through The BullyBlox system. If you are not
-familiar with The BullyBlox system please go to www.bullybloxx.com for details. Once you are on the site if you will click on the School
-Administrator tab at the top of the Home page complete instructions for BullyBlox will be provided for you. I have uploaded an identification video and you can view this video under my username<b> ${
+I have information involving bullying in your school. I am reporting this information through The Bully Periscope system. If you are not
+familiar with The Bully Periscope system please go to www.thebullyperiscope.com for details. Once you are on the site if you will click on the School
+Administrator tab at the top of the Home page complete instructions for Bully Periscope will be provided for you. I have uploaded an identification video and you can view this video under my username<b> ${
         reqBody?.user?.username || ""
       }</b>. If you have any further questions or need to immediately verify this information please contact me and I will provide the answers for you.
 <br /> <br />
@@ -106,9 +106,9 @@ export const templateWeaponThreat2 = (reqBody, periscope = false) => `
 ${
   !periscope
     ? `
-I have information concernating a threat against your school. I am reporting this information through The BullyBlox system. If you are not
-  familiar with The BullyBlox system please go to www.bullybloxx.com for details. Once you are on the site if you will click on the School
-  Administrator tab at the top of the Home page complete instructions for BullyBlox will be provided for you. I have uploaded an identification video and you can view this video under my username ${
+I have information concernating a threat against your school. I am reporting this information through The Bully Periscope system. If you are not
+  familiar with The Bully Periscope system please go to www.thebullyperiscope.com for details. Once you are on the site if you will click on the School
+  Administrator tab at the top of the Home page complete instructions for Bully Periscope will be provided for you. I have uploaded an identification video and you can view this video under my username ${
     reqBody?.user?.username
   }.If you have any further questions or need to immediately verify this information please contact me and I will provide the answers for you.
   <br /> <br />
@@ -153,9 +153,9 @@ ${
   !periscope
     ? `
   Dear Principal, <br/>
-  I have information concernating a threat against your school. I am reporting this information through The BullyBlox system. If you are not
-  familiar with The BullyBlox system please go to www.bullybloxx.com for details. Once you are on the site if you will click on the School
-  Administrator tab at the top of the Home page complete instructions for BullyBlox will be provided for you. I have uploaded an identification video and you can view this video under my username ${reqBody.user?.username}.If you have any further questions or need to immediately verify this information please contact me and I will provide the answers for you.
+  I have information concernating a threat against your school. I am reporting this information through The Bully Periscope system. If you are not
+  familiar with The Bully Periscope system please go to www.thebullyperiscope.com for details. Once you are on the site if you will click on the School
+  Administrator tab at the top of the Home page complete instructions for Bully Periscope will be provided for you. I have uploaded an identification video and you can view this video under my username ${reqBody.user?.username}.If you have any further questions or need to immediately verify this information please contact me and I will provide the answers for you.
  ${reqBody.trustee}<br /> <br />
   If you have any further questions or need to immediately verify this
   information please contact me and I will provide the answers for
